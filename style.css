@@ -1,0 +1,49 @@
+body{
+    font-size: 20px;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 500;
+}
+
+header{
+    background-image: url(images/bg-header-desktop.svg);
+    background-color: hsl(180, 29%, 50%);
+}
+
+.tag{
+    background-color: hsl(180, 52%, 96%);
+    color: hsl(180, 29%, 50%);
+    font-weight: 700;
+}
+
+.tag:hover{
+    background-color: hsl(180, 29%, 50%);
+    color: white;
+}
+
+p{
+    margin-bottom: 0;
+}
+.featured{
+    background-color: hsl(180, 14%, 20%);
+    color:white;
+    border-radius: 15px;
+    padding: 7px;
+}
+.new{
+    background-color: hsl(180, 29%, 50%);
+    color:white;
+    border-radius: 15px;
+    padding: 7px;
+}
+.company{
+    color: hsl(180, 29%, 50%);
+}
+.title{
+    font-weight: 700;
+}
+.info{
+    color: hsl(180, 8%, 52%);
+}
+.hidden{
+    display: none;
+}
